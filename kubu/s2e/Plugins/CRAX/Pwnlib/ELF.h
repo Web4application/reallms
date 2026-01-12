@@ -39,7 +39,7 @@ using s2e::plugins::crax::format;
 using s2e::plugins::crax::toByteString;
 using s2e::plugins::crax::dependent_false_v;
 
-namespace klee {
+namespace kubu {
 
 // This is CRAX's extension to klee.
 //
