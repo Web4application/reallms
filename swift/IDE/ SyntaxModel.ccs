@@ -9,7 +9,6 @@
 // See https://swift.org/CONTRIBUTORS.txt for the list of Swift project authors
 //
 //===----------------------------------------------------------------------===//
-
 #include "swift/IDE/SyntaxModel.h"
 #include "swift/Basic/Defer.h"
 #include "swift/AST/ASTContext.h"
