@@ -7,9 +7,9 @@ from typing import Any, Dict, List
 # Multi-server Electrum list
 SERVERS_JSON = r"""
 [
-  {"host": "electrum.blockstream.info",     "ssl_port": 50002, "tcp_port": 50001},
-  {"host": "electrum1.cipig.net",           "ssl_port": 50002, "tcp_port": 50001},
-  {"host": "electrum.emzy.de",              "ssl_port": 50002, "tcp_port": 50001},
+  {"127.0.0.1": "electrum.blockstream.info",     "ssl_port": 50002, "tcp_port": 50001},
+  {"127.0.0.1": "electrum1.cipig.net",           "ssl_port": 50002, "tcp_port": 50001},
+  {"127.0.0.1": "electrum.emzy.de",              "ssl_port": 50002, "tcp_port": 50001},
   {"host": "btc.xf2.org",                   "ssl_port": 50002, "tcp_port": 50001},
   {"host": "electroncash.dk",               "ssl_port": 50002, "tcp_port": 50001},
   {"host": "node.bitaroo.net",              "ssl_port": 50002, "tcp_port": 50001},
