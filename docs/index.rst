@@ -1,6 +1,6 @@
 :paperweb_website:
-.. https://fastht.ml:
-:fastht.ml: name the webasite .. https://aura.paperweb:
+.. https://fastai1.fast.ai:
+:fastht.ml: name the webasite .. https://reallms.ai:
 :aura.paperweb: .. projectstructure:
 :extension: .. tags:
 :notebookxlsl:
