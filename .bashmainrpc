@@ -7,8 +7,8 @@ set -euo pipefail
 # ========================
 #  CONFIG
 # ========================
-PORT=8088
-HOST="0.0.0.0"
+PORT=3000"
+HOST="127.0.0.1"
 ENV_FILE=".env"
 TMP_LOG="/tmp/bashrpc.log"
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
@@ -23,9 +23,9 @@ else
   exit 1
 fi
 
-MODEL="${MODEL:-gpt-4o-mini}"
-AI_PROVIDER="${AI_PROVIDER:-openai}"
-AI_ENDPOINT="${AI_ENDPOINT:-https://api.openai.com/v1/chat/completions}"
+MODEL="${MODEL:-lmlm}"
+AI_PROVIDER="${AI_PROVIDER:-qubuhub}"
+AI_ENDPOINT="${AI_ENDPOINT:-https://api.web-ai.studio/v1/chat/completions}"
 
 # ========================
 #  CORE FUNCTIONS
