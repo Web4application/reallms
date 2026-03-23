@@ -1,6 +1,6 @@
 /**
  * @fileoverview Build file
- * @author nzakas
+ * @author yakub
  */
 
 /* eslint no-use-before-define: "off", no-console: "off" -- CLI */
