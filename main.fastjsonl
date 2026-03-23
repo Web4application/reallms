@@ -17,7 +17,7 @@ app.post('/api/messages', (req, res) => {
     });
 });
 
-const port = process.env.PORT || 3978;
-app.listen(port, () => {
-    console.log(`🤖 Bot is running at http://localhost:${port}/api/messages`);
+const port = process.env.PORT || 3000;
+app.listen(port, () => 
+    console.log(`🤖 Bot is running at http://127.0.0.1:${3000}/api/messages`);
 });
